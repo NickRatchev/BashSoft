@@ -5,7 +5,7 @@
     using Contracts;
 
     [Alias("show")]
-    public class ShowCourseCommand : Command, IExecutable
+    public class ShowCourseCommand : Command
     {
         [Inject]
         private IDatabase repository;

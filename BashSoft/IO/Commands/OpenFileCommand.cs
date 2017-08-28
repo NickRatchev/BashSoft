@@ -6,7 +6,7 @@
     using Contracts;
 
     [Alias("open")]
-    public class OpenFileCommand : Command, IExecutable
+    public class OpenFileCommand : Command
     {
         public OpenFileCommand(string input, string[] data)
             : base(input, data)

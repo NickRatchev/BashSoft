@@ -5,7 +5,7 @@
     using Contracts;
 
     [Alias("cmp")]
-    public class CompareFilesCommand : Command, IExecutable
+    public class CompareFilesCommand : Command
     {
         [Inject]
         private IContentComparer judge;

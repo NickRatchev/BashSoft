@@ -5,7 +5,7 @@
     using Contracts;
 
     [Alias("mkdir")]
-    public class MakeDirectoryCommand : Command, IExecutable
+    public class MakeDirectoryCommand : Command
     {
         [Inject]
         private IDirectoryManager inputOutputManager;

@@ -5,7 +5,7 @@
     using Contracts;
 
     [Alias("help")]
-    public class GetHelpCommand : Command, IExecutable
+    public class GetHelpCommand : Command
     {
         public GetHelpCommand(string input, string[] data)
             : base(input, data)

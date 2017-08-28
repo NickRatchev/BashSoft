@@ -5,7 +5,7 @@
     using Contracts;
 
     [Alias("cdabs")]
-    public class ChangeAbsolutePathCommand : Command, IExecutable
+    public class ChangeAbsolutePathCommand : Command
     {
         [Inject]
         private IDirectoryManager inputOutputManager;

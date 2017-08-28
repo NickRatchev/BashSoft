@@ -5,7 +5,7 @@
     using Contracts;
 
     [Alias("cdrel")]
-    public class ChangeRelativePathCommand : Command, IExecutable
+    public class ChangeRelativePathCommand : Command
     {
         [Inject]
         private IDirectoryManager inputOutputManager;

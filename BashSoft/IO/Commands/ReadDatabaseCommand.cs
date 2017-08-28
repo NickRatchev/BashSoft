@@ -5,7 +5,7 @@
     using Contracts;
 
     [Alias("readdb")]
-    public class ReadDatabaseCommand : Command, IExecutable
+    public class ReadDatabaseCommand : Command
     {
         [Inject]
         private IDatabase repository;

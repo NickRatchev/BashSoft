@@ -5,7 +5,7 @@
     using Contracts;
 
     [Alias("order")]
-    public class PrintOrderedStudentsCommand : Command, IExecutable
+    public class PrintOrderedStudentsCommand : Command
     {
         [Inject]
         private IDatabase repository;

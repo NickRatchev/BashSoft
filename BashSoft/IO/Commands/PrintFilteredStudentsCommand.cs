@@ -5,7 +5,7 @@
     using Contracts;
 
     [Alias("filter")]
-    public class PrintFilteredStudentsCommand : Command, IExecutable
+    public class PrintFilteredStudentsCommand : Command
     {
         [Inject]
         private IDatabase repository;

@@ -5,7 +5,7 @@
     using Contracts;
 
     [Alias("dropdb")]
-    public class DropDatabaseCommand : Command, IExecutable
+    public class DropDatabaseCommand : Command
     {
         [Inject]
         private IDatabase repository;

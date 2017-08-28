@@ -5,7 +5,7 @@
     using Contracts;
 
     [Alias("ls")]
-    public class TraverseFoldersCommand : Command, IExecutable
+    public class TraverseFoldersCommand : Command
     {
         [Inject]
         private IDirectoryManager inputOutputManager;
